@@ -1,0 +1,49 @@
+.container img {
+  width: 100%;
+  height: 150vh;
+}
+.header {
+  display: flex;
+}
+.header .right ul {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+  margin-left: 800px;
+  margin-top: -1000px;
+  color: white;
+}
+.right ul li:hover {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+.header .left h2 {
+  margin-left: 62px;
+  margin-top: -1015px;
+  color: white;
+  font-size: 34px;
+}
+.left-site {
+  color: white;
+  margin-left: 50px;
+  margin-top: -894px;
+}
+.right-site {
+  color: white;
+  margin-left: 900px;
+}
+s .right-site h1 {
+  font-size: 54px;
+  font-weight: 800;
+}
+.main {
+  display: flex;
+  gap: 120px;
+  color: white;
+  margin-left: 32px;
+  margin-top: 475px;
+  border-radius: 2px solid red;
+  background-color: green;
+}
